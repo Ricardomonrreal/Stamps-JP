@@ -1,0 +1,74 @@
+{
+  ".claude/launch.json": {
+    "mtime": 1792382662.4848545,
+    "seen": 1792384586.9169216,
+    "ast_hash": "99f1bc95121114579a63f140be364833",
+    "semantic_hash": "99f1bc95121114579a63f140be364833"
+  },
+  ".claude/settings.json": {
+    "mtime": 1792384171.6558583,
+    "seen": 1792384586.9169295,
+    "ast_hash": "3ac995fbf93552a991ecab9b63f776aa",
+    "semantic_hash": "3ac995fbf93552a991ecab9b63f776aa"
+  },
+  "jsconfig.json": {
+    "mtime": 1792379145.0131319,
+    "seen": 1792384586.916933,
+    "ast_hash": "7e6d8df69731a24bb613611c46ff4669",
+    "semantic_hash": "7e6d8df69731a24bb613611c46ff4669"
+  },
+  "package.json": {
+    "mtime": 1792382566.6860662,
+    "seen": 1792384586.9169357,
+    "ast_hash": "0d183bd29cc58e5a28feac8ac533c8b2",
+    "semantic_hash": "0d183bd29cc58e5a28feac8ac533c8b2"
+  },
+  "src/App.vue": {
+    "mtime": 1792382623.4958386,
+    "seen": 1792384586.9169385,
+    "ast_hash": "87de0c8387ee3b6243a2c5e7f180e0a8",
+    "semantic_hash": "87de0c8387ee3b6243a2c5e7f180e0a8"
+  },
+  "src/components/AddStamp.vue": {
+    "mtime": 1792382601.7977054,
+    "seen": 1792384586.9169407,
+    "ast_hash": "174dcf856d8d0f690d67443e6a959c5f",
+    "semantic_hash": "174dcf856d8d0f690d67443e6a959c5f"
+  },
+  "src/components/StampMap.vue": {
+    "mtime": 1792383815.8098154,
+    "seen": 1792384586.9169433,
+    "ast_hash": "c09016f92d21aa37fb5169cd0a715b3b",
+    "semantic_hash": "c09016f92d21aa37fb5169cd0a715b3b"
+  },
+  "src/components/StatsPanel.vue": {
+    "mtime": 1792382601.9284184,
+    "seen": 1792384586.9169455,
+    "ast_hash": "3a35c391fff63cefceb71d8e00fc3c02",
+    "semantic_hash": "3a35c391fff63cefceb71d8e00fc3c02"
+  },
+  "src/main.js": {
+    "mtime": 1792382623.8652227,
+    "seen": 1792384586.9169476,
+    "ast_hash": "f4b8d33272b2913df8efeacaa8ed6e65",
+    "semantic_hash": "f4b8d33272b2913df8efeacaa8ed6e65"
+  },
+  "src/supabase.js": {
+    "mtime": 1792382582.7232368,
+    "seen": 1792384586.9169497,
+    "ast_hash": "04257b81d0a77513c13d468e20686a48",
+    "semantic_hash": "04257b81d0a77513c13d468e20686a48"
+  },
+  "supabase/schema.sql": {
+    "mtime": 1792382582.6347525,
+    "seen": 1792384586.916952,
+    "ast_hash": "89034fd4e6953df738a85904ed85689d",
+    "semantic_hash": "89034fd4e6953df738a85904ed85689d"
+  },
+  "vite.config.js": {
+    "mtime": 1792379239.7307727,
+    "seen": 1792384586.9169545,
+    "ast_hash": "aad8b5799752f14676d2f39a5cd39c6a",
+    "semantic_hash": "aad8b5799752f14676d2f39a5cd39c6a"
+  }
+}

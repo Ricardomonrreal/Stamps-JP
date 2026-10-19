@@ -11,8 +11,7 @@ Vue + Leaflet + Supabase, desplegado en Vercel. Instalable en el móvil como PWA
 3. Copiar `.env.example` a `.env.local` con la URL y la publishable key.
 4. `npm install` y `npm run dev`.
 
-En Vercel: importar el repo y definir `VITE_SUPABASE_URL` y `VITE_SUPABASE_KEY`. Registrar el dominio de Vercel en client.stadiamaps.com para que carguen los tiles del mapa (en localhost funcionan sin registro).
-
+En Vercel: importar el repo y definir `VITE_SUPABASE_URL` y `VITE_SUPABASE_KEY`.
 ## Moderación
 
 Las propuestas de usuarios entran como `pending` (gris en el mapa, solo las ve quien las propuso). Para aprobar:

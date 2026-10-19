@@ -2,6 +2,13 @@
 import { onMounted, onBeforeUnmount, ref, watch } from 'vue'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
+import 'maplibre-gl/dist/maplibre-gl.css'
+import { maplibreGL } from '@maplibre/maplibre-gl-leaflet'
+import { setWorkerUrl } from 'maplibre-gl'
+import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url'
+
+// MapLibre busca su worker junto a su propio archivo; con Vite hay que indicarle dónde quedó
+setWorkerUrl(workerUrl)
 
 const props = defineProps({ stamps: Array, collected: Set, picking: Boolean })
 const emit = defineEmits(['toggle', 'pick'])
@@ -39,10 +46,11 @@ function draw() {
 
 onMounted(() => {
   map = L.map(el.value).setView([34.69, 135.5], 12) // Osaka
-  L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
-    maxZoom: 20,
+  // OpenFreeMap: open source, sin key ni límites de uso
+  maplibreGL({
+    style: 'https://tiles.openfreemap.org/styles/positron',
     attribution:
-      '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      '<a href="https://openfreemap.org" target="_blank">OpenFreeMap</a> &copy; <a href="https://www.openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
   }).addTo(map)
   layer = L.layerGroup().addTo(map)
   map.on('click', (e) => props.picking && emit('pick', e.latlng))
