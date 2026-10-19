@@ -1,0 +1,10 @@
+{
+  "name": "Stamps JP",
+  "short_name": "Stamps JP",
+  "description": "Mapa y tracker de estampas de estaciones y lugares en Japón",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#dd3333",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

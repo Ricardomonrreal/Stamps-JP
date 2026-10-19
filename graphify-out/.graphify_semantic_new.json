@@ -1,0 +1,574 @@
+{
+  "nodes": [
+    {
+      "id": "graphify_skill",
+      "label": "graphify skill",
+      "type": "skill",
+      "confidence": 0.95,
+      "source_location": ".claude/CLAUDE.md:2"
+    },
+    {
+      "id": "graphify_trigger",
+      "label": "/graphify command trigger",
+      "type": "command",
+      "confidence": 0.95,
+      "source_location": ".claude/CLAUDE.md:3"
+    },
+    {
+      "id": "graphify_knowledge_graph",
+      "label": "graphify knowledge graph system",
+      "type": "system",
+      "confidence": 0.95,
+      "source_location": "CLAUDE.md:1-2"
+    },
+    {
+      "id": "graphify_out_directory",
+      "label": "graphify-out/ directory",
+      "type": "document",
+      "confidence": 0.9,
+      "source_location": "CLAUDE.md:3"
+    },
+    {
+      "id": "graph_json",
+      "label": "graph.json",
+      "type": "document",
+      "confidence": 0.9,
+      "source_location": "CLAUDE.md:6"
+    },
+    {
+      "id": "graphify_query_command",
+      "label": "graphify query command",
+      "type": "command",
+      "confidence": 0.95,
+      "source_location": "CLAUDE.md:6"
+    },
+    {
+      "id": "graphify_path_command",
+      "label": "graphify path command",
+      "type": "command",
+      "confidence": 0.95,
+      "source_location": "CLAUDE.md:6"
+    },
+    {
+      "id": "graphify_explain_command",
+      "label": "graphify explain command",
+      "type": "command",
+      "confidence": 0.95,
+      "source_location": "CLAUDE.md:6"
+    },
+    {
+      "id": "graph_report_md",
+      "label": "graphify-out/GRAPH_REPORT.md",
+      "type": "document",
+      "confidence": 0.9,
+      "source_location": "CLAUDE.md:8"
+    },
+    {
+      "id": "wiki_index_md",
+      "label": "graphify-out/wiki/index.md",
+      "type": "document",
+      "confidence": 0.9,
+      "source_location": "CLAUDE.md:7"
+    },
+    {
+      "id": "graphify_update_command",
+      "label": "graphify update command",
+      "type": "command",
+      "confidence": 0.95,
+      "source_location": "CLAUDE.md:9"
+    },
+    {
+      "id": "stamps_jp_project",
+      "label": "Stamps JP",
+      "type": "project",
+      "confidence": 0.98,
+      "source_location": "README.md:1"
+    },
+    {
+      "id": "eki_stamps_feature",
+      "label": "eki stamps",
+      "type": "feature",
+      "confidence": 0.95,
+      "source_location": "README.md:3"
+    },
+    {
+      "id": "osaka_location",
+      "label": "Osaka",
+      "type": "location",
+      "confidence": 0.95,
+      "source_location": "README.md:3"
+    },
+    {
+      "id": "japan_location",
+      "label": "Japan",
+      "type": "location",
+      "confidence": 0.95,
+      "source_location": "README.md:3"
+    },
+    {
+      "id": "vue_framework",
+      "label": "Vue",
+      "type": "library",
+      "confidence": 0.98,
+      "source_location": "README.md:5"
+    },
+    {
+      "id": "leaflet_library",
+      "label": "Leaflet",
+      "type": "library",
+      "confidence": 0.98,
+      "source_location": "README.md:5"
+    },
+    {
+      "id": "supabase_service",
+      "label": "Supabase",
+      "type": "library",
+      "confidence": 0.98,
+      "source_location": "README.md:5"
+    },
+    {
+      "id": "vercel_service",
+      "label": "Vercel",
+      "type": "service",
+      "confidence": 0.98,
+      "source_location": "README.md:5"
+    },
+    {
+      "id": "pwa_technology",
+      "label": "PWA (Progressive Web App)",
+      "type": "technology",
+      "confidence": 0.95,
+      "source_location": "README.md:5"
+    },
+    {
+      "id": "env_example_file",
+      "label": ".env.example",
+      "type": "document",
+      "confidence": 0.9,
+      "source_location": "README.md:11"
+    },
+    {
+      "id": "env_local_file",
+      "label": ".env.local",
+      "type": "document",
+      "confidence": 0.9,
+      "source_location": "README.md:11"
+    },
+    {
+      "id": "supabase_schema_sql",
+      "label": "supabase/schema.sql",
+      "type": "document",
+      "confidence": 0.9,
+      "source_location": "README.md:9"
+    },
+    {
+      "id": "supabase_authentication",
+      "label": "Supabase Authentication",
+      "type": "feature",
+      "confidence": 0.95,
+      "source_location": "README.md:10"
+    },
+    {
+      "id": "stadiamaps_service",
+      "label": "StadiaMaps",
+      "type": "service",
+      "confidence": 0.95,
+      "source_location": "README.md:14"
+    },
+    {
+      "id": "moderation_feature",
+      "label": "moderation",
+      "type": "feature",
+      "confidence": 0.95,
+      "source_location": "README.md:16"
+    },
+    {
+      "id": "pending_status",
+      "label": "pending status",
+      "type": "concept",
+      "confidence": 0.9,
+      "source_location": "README.md:18"
+    },
+    {
+      "id": "approved_status",
+      "label": "approved status",
+      "type": "concept",
+      "confidence": 0.9,
+      "source_location": "README.md:18"
+    },
+    {
+      "id": "prefecture_field",
+      "label": "prefecture (database field)",
+      "type": "concept",
+      "confidence": 0.9,
+      "source_location": "README.md:26"
+    },
+    {
+      "id": "city_field",
+      "label": "city (database field)",
+      "type": "concept",
+      "confidence": 0.9,
+      "source_location": "README.md:26"
+    },
+    {
+      "id": "index_html",
+      "label": "index.html",
+      "type": "document",
+      "confidence": 0.95,
+      "source_location": "index.html:1"
+    },
+    {
+      "id": "icon_svg",
+      "label": "icon.svg",
+      "type": "document",
+      "confidence": 0.9,
+      "source_location": "index.html:5"
+    },
+    {
+      "id": "manifest_webmanifest",
+      "label": "manifest.webmanifest",
+      "type": "document",
+      "confidence": 0.9,
+      "source_location": "index.html:6"
+    },
+    {
+      "id": "main_js",
+      "label": "src/main.js",
+      "type": "document",
+      "confidence": 0.95,
+      "source_location": "index.html:13"
+    },
+    {
+      "id": "app_element",
+      "label": "app (DOM element)",
+      "type": "concept",
+      "confidence": 0.9,
+      "source_location": "index.html:12"
+    },
+    {
+      "id": "readme_md",
+      "label": "README.md",
+      "type": "document",
+      "confidence": 0.95,
+      "source_location": "README.md:1"
+    },
+    {
+      "id": "claude_md_root",
+      "label": "CLAUDE.md (root)",
+      "type": "document",
+      "confidence": 0.95,
+      "source_location": "CLAUDE.md:1"
+    },
+    {
+      "id": "claude_md_config",
+      "label": ".claude/CLAUDE.md",
+      "type": "document",
+      "confidence": 0.95,
+      "source_location": ".claude/CLAUDE.md:1"
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "graphify_trigger",
+      "target_id": "graphify_skill",
+      "relationship_type": "triggers",
+      "confidence": 0.95,
+      "source_location": ".claude/CLAUDE.md:3"
+    },
+    {
+      "source_id": "graphify_knowledge_graph",
+      "target_id": "graphify_out_directory",
+      "relationship_type": "stores",
+      "confidence": 0.95,
+      "source_location": "CLAUDE.md:3"
+    },
+    {
+      "source_id": "graphify_knowledge_graph",
+      "target_id": "graph_json",
+      "relationship_type": "uses",
+      "confidence": 0.9,
+      "source_location": "CLAUDE.md:6"
+    },
+    {
+      "source_id": "graphify_query_command",
+      "target_id": "graphify_knowledge_graph",
+      "relationship_type": "queries",
+      "confidence": 0.95,
+      "source_location": "CLAUDE.md:6"
+    },
+    {
+      "source_id": "graphify_path_command",
+      "target_id": "graphify_knowledge_graph",
+      "relationship_type": "queries",
+      "confidence": 0.95,
+      "source_location": "CLAUDE.md:6"
+    },
+    {
+      "source_id": "graphify_explain_command",
+      "target_id": "graphify_knowledge_graph",
+      "relationship_type": "queries",
+      "confidence": 0.95,
+      "source_location": "CLAUDE.md:6"
+    },
+    {
+      "source_id": "graphify_out_directory",
+      "target_id": "graph_report_md",
+      "relationship_type": "contains",
+      "confidence": 0.9,
+      "source_location": "CLAUDE.md:8"
+    },
+    {
+      "source_id": "graphify_out_directory",
+      "target_id": "wiki_index_md",
+      "relationship_type": "contains",
+      "confidence": 0.9,
+      "source_location": "CLAUDE.md:7"
+    },
+    {
+      "source_id": "graphify_update_command",
+      "target_id": "graphify_knowledge_graph",
+      "relationship_type": "updates",
+      "confidence": 0.95,
+      "source_location": "CLAUDE.md:9"
+    },
+    {
+      "source_id": "stamps_jp_project",
+      "target_id": "eki_stamps_feature",
+      "relationship_type": "implements",
+      "confidence": 0.95,
+      "source_location": "README.md:3"
+    },
+    {
+      "source_id": "stamps_jp_project",
+      "target_id": "osaka_location",
+      "relationship_type": "covers",
+      "confidence": 0.95,
+      "source_location": "README.md:3"
+    },
+    {
+      "source_id": "stamps_jp_project",
+      "target_id": "vue_framework",
+      "relationship_type": "uses",
+      "confidence": 0.98,
+      "source_location": "README.md:5"
+    },
+    {
+      "source_id": "stamps_jp_project",
+      "target_id": "leaflet_library",
+      "relationship_type": "uses",
+      "confidence": 0.98,
+      "source_location": "README.md:5"
+    },
+    {
+      "source_id": "stamps_jp_project",
+      "target_id": "supabase_service",
+      "relationship_type": "uses",
+      "confidence": 0.98,
+      "source_location": "README.md:5"
+    },
+    {
+      "source_id": "stamps_jp_project",
+      "target_id": "vercel_service",
+      "relationship_type": "deployed_on",
+      "confidence": 0.98,
+      "source_location": "README.md:5"
+    },
+    {
+      "source_id": "stamps_jp_project",
+      "target_id": "pwa_technology",
+      "relationship_type": "implements",
+      "confidence": 0.95,
+      "source_location": "README.md:5"
+    },
+    {
+      "source_id": "stamps_jp_project",
+      "target_id": "stadiamaps_service",
+      "relationship_type": "uses",
+      "confidence": 0.95,
+      "source_location": "README.md:14"
+    },
+    {
+      "source_id": "stamps_jp_project",
+      "target_id": "moderation_feature",
+      "relationship_type": "implements",
+      "confidence": 0.95,
+      "source_location": "README.md:16"
+    },
+    {
+      "source_id": "supabase_service",
+      "target_id": "supabase_authentication",
+      "relationship_type": "provides",
+      "confidence": 0.95,
+      "source_location": "README.md:10"
+    },
+    {
+      "source_id": "moderation_feature",
+      "target_id": "pending_status",
+      "relationship_type": "uses_state",
+      "confidence": 0.9,
+      "source_location": "README.md:18"
+    },
+    {
+      "source_id": "moderation_feature",
+      "target_id": "approved_status",
+      "relationship_type": "uses_state",
+      "confidence": 0.9,
+      "source_location": "README.md:18"
+    },
+    {
+      "source_id": "supabase_service",
+      "target_id": "prefecture_field",
+      "relationship_type": "stores_field",
+      "confidence": 0.85,
+      "source_location": "README.md:26"
+    },
+    {
+      "source_id": "supabase_service",
+      "target_id": "city_field",
+      "relationship_type": "stores_field",
+      "confidence": 0.85,
+      "source_location": "README.md:26"
+    },
+    {
+      "source_id": "index_html",
+      "target_id": "main_js",
+      "relationship_type": "loads",
+      "confidence": 0.98,
+      "source_location": "index.html:13"
+    },
+    {
+      "source_id": "index_html",
+      "target_id": "icon_svg",
+      "relationship_type": "links",
+      "confidence": 0.95,
+      "source_location": "index.html:5"
+    },
+    {
+      "source_id": "index_html",
+      "target_id": "manifest_webmanifest",
+      "relationship_type": "links",
+      "confidence": 0.95,
+      "source_location": "index.html:6"
+    },
+    {
+      "source_id": "index_html",
+      "target_id": "app_element",
+      "relationship_type": "contains",
+      "confidence": 0.95,
+      "source_location": "index.html:12"
+    },
+    {
+      "source_id": "stamps_jp_project",
+      "target_id": "index_html",
+      "relationship_type": "entry_point",
+      "confidence": 0.95,
+      "source_location": "index.html:1"
+    },
+    {
+      "source_id": "stamps_jp_project",
+      "target_id": "env_example_file",
+      "relationship_type": "uses_config",
+      "confidence": 0.9,
+      "source_location": "README.md:11"
+    },
+    {
+      "source_id": "stamps_jp_project",
+      "target_id": "env_local_file",
+      "relationship_type": "uses_config",
+      "confidence": 0.9,
+      "source_location": "README.md:11"
+    },
+    {
+      "source_id": "stamps_jp_project",
+      "target_id": "supabase_schema_sql",
+      "relationship_type": "uses_schema",
+      "confidence": 0.95,
+      "source_location": "README.md:9"
+    },
+    {
+      "source_id": "readme_md",
+      "target_id": "stamps_jp_project",
+      "relationship_type": "documents",
+      "confidence": 0.95,
+      "source_location": "README.md:1"
+    },
+    {
+      "source_id": "claude_md_root",
+      "target_id": "graphify_knowledge_graph",
+      "relationship_type": "documents",
+      "confidence": 0.95,
+      "source_location": "CLAUDE.md:1"
+    },
+    {
+      "source_id": "claude_md_config",
+      "target_id": "graphify_skill",
+      "relationship_type": "documents",
+      "confidence": 0.95,
+      "source_location": ".claude/CLAUDE.md:2"
+    },
+    {
+      "source_id": "japan_location",
+      "target_id": "osaka_location",
+      "relationship_type": "contains",
+      "confidence": 0.95,
+      "source_location": "README.md:3"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "stamps_jp_tech_stack",
+      "label": "Stamps JP Technology Stack",
+      "nodes": [
+        "stamps_jp_project",
+        "vue_framework",
+        "leaflet_library",
+        "supabase_service",
+        "vercel_service"
+      ],
+      "relationship_type": "stack_component",
+      "confidence": 0.95,
+      "source_location": "README.md:5"
+    },
+    {
+      "id": "graphify_commands",
+      "label": "graphify Query Commands",
+      "nodes": [
+        "graphify_query_command",
+        "graphify_path_command",
+        "graphify_explain_command",
+        "graphify_knowledge_graph"
+      ],
+      "relationship_type": "command_group",
+      "confidence": 0.95,
+      "source_location": "CLAUDE.md:6"
+    },
+    {
+      "id": "project_configuration",
+      "label": "Project Configuration",
+      "nodes": [
+        "stamps_jp_project",
+        "env_example_file",
+        "env_local_file",
+        "supabase_schema_sql"
+      ],
+      "relationship_type": "config_group",
+      "confidence": 0.9,
+      "source_location": "README.md:9-11"
+    },
+    {
+      "id": "pwa_setup",
+      "label": "PWA Setup",
+      "nodes": [
+        "pwa_technology",
+        "icon_svg",
+        "manifest_webmanifest",
+        "index_html"
+      ],
+      "relationship_type": "feature_group",
+      "confidence": 0.9,
+      "source_location": "README.md:5, index.html:5-6"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

@@ -1,38 +1,26 @@
-# stampsjp
+# Stamps JP
 
-This template should help get you started developing with Vue 3 in Vite.
+Mapa interactivo de estampas (eki stamps) de estaciones y lugares en Japón. Por ahora: Osaka.
 
-## Recommended IDE Setup
+Vue + Leaflet + Supabase, desplegado en Vercel. Instalable en el móvil como PWA ("Agregar a pantalla de inicio").
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Configuración
 
-## Recommended Browser Setup
+1. Crear un proyecto en Supabase y ejecutar `supabase/schema.sql` en el SQL Editor.
+2. En Supabase > Authentication > URL Configuration, agregar `http://localhost:5173` y el dominio de Vercel a las Redirect URLs.
+3. Copiar `.env.example` a `.env.local` con la URL y la publishable key.
+4. `npm install` y `npm run dev`.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+En Vercel: importar el repo y definir `VITE_SUPABASE_URL` y `VITE_SUPABASE_KEY`. Registrar el dominio de Vercel en client.stadiamaps.com para que carguen los tiles del mapa (en localhost funcionan sin registro).
 
-## Customize configuration
+## Moderación
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Las propuestas de usuarios entran como `pending` (gris en el mapa, solo las ve quien las propuso). Para aprobar:
 
-## Project Setup
-
-```sh
-npm install
+```sql
+update public.stamps set status = 'approved' where id = 123;
 ```
 
-### Compile and Hot-Reload for Development
+## Escalar a todo Japón
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+El esquema ya tiene `prefecture` y `city`. Al crecer el catálogo: cargar estampas por límites del mapa y mover las estadísticas a una vista SQL (ver comentarios `ponytail:`).
