@@ -1,0 +1,80 @@
+{
+  "jsconfig.json": {
+    "mtime": 1792379145.0131319,
+    "seen": 1792384586.916933,
+    "ast_hash": "7e6d8df69731a24bb613611c46ff4669",
+    "semantic_hash": "7e6d8df69731a24bb613611c46ff4669"
+  },
+  "package.json": {
+    "mtime": 1792389466.5789502,
+    "seen": 1792389681.1753435,
+    "ast_hash": "b333763c2b01afa8affce2e948b74f1d",
+    "semantic_hash": ""
+  },
+  "src/App.vue": {
+    "mtime": 1792382623.4958386,
+    "seen": 1792384586.9169385,
+    "ast_hash": "87de0c8387ee3b6243a2c5e7f180e0a8",
+    "semantic_hash": "87de0c8387ee3b6243a2c5e7f180e0a8"
+  },
+  "src/components/AddStamp.vue": {
+    "mtime": 1792382601.7977054,
+    "seen": 1792384586.9169407,
+    "ast_hash": "174dcf856d8d0f690d67443e6a959c5f",
+    "semantic_hash": "174dcf856d8d0f690d67443e6a959c5f"
+  },
+  "src/components/StampMap.vue": {
+    "mtime": 1792389630.271588,
+    "seen": 1792389681.1761158,
+    "ast_hash": "4e40490abf5a8673c98dbcd2cdc08da8",
+    "semantic_hash": ""
+  },
+  "src/components/StatsPanel.vue": {
+    "mtime": 1792382601.9284184,
+    "seen": 1792384586.9169455,
+    "ast_hash": "3a35c391fff63cefceb71d8e00fc3c02",
+    "semantic_hash": "3a35c391fff63cefceb71d8e00fc3c02"
+  },
+  "src/main.js": {
+    "mtime": 1792382623.8652227,
+    "seen": 1792384586.9169476,
+    "ast_hash": "f4b8d33272b2913df8efeacaa8ed6e65",
+    "semantic_hash": "f4b8d33272b2913df8efeacaa8ed6e65"
+  },
+  "src/supabase.js": {
+    "mtime": 1792382582.7232368,
+    "seen": 1792384586.9169497,
+    "ast_hash": "04257b81d0a77513c13d468e20686a48",
+    "semantic_hash": "04257b81d0a77513c13d468e20686a48"
+  },
+  "supabase/schema.sql": {
+    "mtime": 1792382582.6347525,
+    "seen": 1792384586.916952,
+    "ast_hash": "",
+    "semantic_hash": ""
+  },
+  "vite.config.js": {
+    "mtime": 1792389630.421319,
+    "seen": 1792389681.1773715,
+    "ast_hash": "aad8b5799752f14676d2f39a5cd39c6a",
+    "semantic_hash": "aad8b5799752f14676d2f39a5cd39c6a"
+  },
+  "CLAUDE.md": {
+    "mtime": 1792384171.6521735,
+    "seen": 1792389681.1773765,
+    "ast_hash": "8a6643a420fdad6bfb583523bc6cef16",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1792389479.8222964,
+    "seen": 1792389681.1773813,
+    "ast_hash": "3fe5a8c7f0f332edf4b94afc7a3b51d7",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1792382642.2667587,
+    "seen": 1792389681.1773846,
+    "ast_hash": "13a50c1700805882fd110de26f40edd7",
+    "semantic_hash": ""
+  }
+}
