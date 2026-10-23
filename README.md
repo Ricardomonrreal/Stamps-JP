@@ -6,7 +6,7 @@ Vue + Leaflet + Supabase, desplegado en Vercel. Instalable en el móvil como PWA
 
 ## Configuración
 
-1. Crear un proyecto en Supabase y ejecutar `supabase/schema.sql` y luego `supabase/2026-10-23-imagenes.sql` en el SQL Editor (imágenes, bucket `stamp-images` y ~100 estaciones JR West de Osaka).
+1. Crear un proyecto en Supabase y ejecutar `supabase/schema.sql` y luego `supabase/2026-10-23-imagenes.sql` en el SQL Editor (imágenes, bucket `stamp-images` y ~45 estaciones JR West de la ciudad de Osaka).
 2. En Supabase > Authentication > URL Configuration, agregar `http://localhost:5173` y el dominio de Vercel a las Redirect URLs.
 3. Copiar `.env.example` a `.env.local` con la URL y la publishable key.
 4. `npm install` y `npm run dev`.
